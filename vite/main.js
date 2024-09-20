@@ -33,7 +33,7 @@ scene.add(dodecahedron);
 scene.add(box);
 
 // 4. Add light
-const light = new THREE.SpotLight("0x006769", 10);
+const light = new THREE.SpotLight("0x006769", 100);
 light.position.set(1, 1, 1);
 scene.add(light);
 
